@@ -11,5 +11,5 @@ This is not going to have some crazy steps I will try to do my best to follow th
 # What I have created
 
 # Live Preview
-The Link to it: This site for was putting live using [GitHub Pages](https://rudyravelindev.github.io/sign-up-form/).
+This form for was putting live using [GitHub Pages](https://rudyravelindev.github.io/sign-up-form/).
 
