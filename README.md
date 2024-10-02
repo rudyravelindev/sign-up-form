@@ -11,5 +11,4 @@ This is not going to have some crazy steps I will try to do my best to follow th
 # What I have created
 
 # Live Preview
-This form for was putting live using [GitHub Pages](https://rudyravelindev.github.io/sign-up-form/){:target="_blank"}
-
+This form for was putting live using [GitHub Pages](https://rudyravelindev.github.io/sign-up-form/)
