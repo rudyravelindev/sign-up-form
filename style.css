@@ -2,3 +2,50 @@
     margin: 0;
     padding: 0;
 }
+/* Main content of the form */
+.main-container{
+    display: flex;
+    
+}
+/* First side of the form */
+.image-section{
+    flex: 1;
+  max-width: 33.33%;
+  background-image: url('images/bgi.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+/* Second paet of the forn */
+.content-section{
+    flex: 2;
+    height: 100vh;
+}
+
+/* the logo part */
+/* Centering the .logo div, full width, and adding styles */
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius:
+    width: 100%;
+    box-sizing: border-box;
+    margin: 200px 0;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Set image width (adjust as needed) */
+    margin-right: 15px; /* Space between the image and the text */
+  }
+  
+  .logo h1 {
+    color: white; /* Text color to contrast with the background */
+  }
+  
