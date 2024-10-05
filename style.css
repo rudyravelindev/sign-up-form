@@ -141,7 +141,7 @@ input:invalid {
 } */
 
 input:focus {
-  box-shadow: #0e004b;
+  /* box-shadow: #0e004b; */
   background-color: #00fae1;
 }
 .btn{
