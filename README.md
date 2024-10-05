@@ -13,3 +13,6 @@ This is not going to have some crazy steps I will try to do my best to follow th
 
 # Live Preview
 This form for was putting live using [GitHub Pages](https://rudyravelindev.github.io/sign-up-form/)
+
+# Time to Complete
+3 days with 2 hours a day
