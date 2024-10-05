@@ -9,6 +9,6 @@ This is not going to have some crazy steps I will try to do my best to follow th
 *- I am not going to use JavaScript to validate forms. For now, I will just validate each field separately.
 *- This is not a real website form this is just a non-official form.
 # What I have created
-
+![My final form](form.png)
 # Live Preview
 This form for was putting live using [GitHub Pages](https://rudyravelindev.github.io/sign-up-form/)
