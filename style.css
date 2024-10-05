@@ -28,6 +28,9 @@ html, body {
 /* AI */
 .highlight {
     color: #00B7C5;
+    font-family: 'NorseBold', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 6rem !important;
     font-style: italic;
   }
     
