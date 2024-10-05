@@ -59,11 +59,11 @@ h4{
   width: 120px;
   text-align: center;
   border-radius: 10px;
-  background-color: #421bef;
-  color: aliceblue;
+  background-color: #6ec9f6;
+  color: rgb(0, 0, 0);
   margin: 20px;
   padding: 3px;
-  box-shadow: 0 0 3px #421bef;
+  box-shadow: 0 0 6px #ff0202;
 }
 /* the logo part */
 /* Centering the .logo div, full width, and adding styles */
@@ -106,4 +106,18 @@ width: fit-content;
 border-radius: 10px;
 box-shadow: 0 0 12px #000000;
 
+}
+
+input:invalid {
+  border: 2px dashed red;
+  border-radius: 6px;
+}
+/* input:valid{
+  border: 2px solid rgb(51, 0, 255);
+  border-radius: 6px;
+} */
+
+input:focus {
+  box-shadow: #0e004b;
+  background-color: rgb(111, 186, 248);
 }
