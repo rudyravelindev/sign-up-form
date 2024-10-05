@@ -124,7 +124,7 @@ input:invalid {
 
 input:focus {
   box-shadow: #0e004b;
-  background-color: rgb(111, 186, 248);
+  background-color: #00fae1;
 }
 .btn{
   background-color: #01BFCB;
