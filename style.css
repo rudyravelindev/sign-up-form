@@ -55,6 +55,16 @@ p{
 h3{
     font-size: 18px;
 }
+h4{
+  width: 120px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #421bef;
+  color: aliceblue;
+  margin: 20px;
+  padding: 3px;
+  box-shadow: 0 0 3px #421bef;
+}
 /* the logo part */
 /* Centering the .logo div, full width, and adding styles */
 .logo {
@@ -64,7 +74,7 @@ h3{
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px;
-    border-radius:
+    /* border-radius: */
     width: 100%;
     box-sizing: border-box;
     margin: 200px 0;
@@ -85,3 +95,15 @@ h3{
   left: 42%;
   
   }
+
+  .form-content{
+display: flex;
+gap: 120px;
+padding: 14px;
+margin: 14px;
+background-color: rgb(3, 178, 205);
+width: fit-content;
+border-radius: 10px;
+box-shadow: 0 0 12px #000000;
+
+}
