@@ -1,6 +1,7 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Honk:MORF,SHLN@39,69.1&family=Sixtyfour+Convergence&display=swap');
 
-
+/* Font Face */
 @font-face {
   font-family: 'NorseBold';
   src: url('fonts/Norse-Bold.otf') format('truetype');
@@ -8,36 +9,25 @@
   font-style: normal;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Edu AU VIC WA NT Guides", cursive;
-
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
 }
 
 html, body {
-    overflow: hidden; /* Prevents scrolling */
-  }
-  
-/* Main content of the form */
-.main-container{
-    display: flex;
-    
+  overflow: hidden; /* Prevents scrolling */
 }
 
-/* AI */
-.highlight {
-    color: #00B7C5;
-    font-family: 'NorseBold', sans-serif !important;
-    font-weight: bold !important;
-    font-size: 10rem !important;
-    font-style: italic;
-  }
-    
-  
-/* First side of the form */
-.image-section{
-    flex: 1;
+/* Main Layout Structure */
+.main-container {
+  display: flex;
+}
+
+/* Left Section (Image) */
+.image-section {
+  flex: 1;
   max-width: 33.33%;
   background-image: url('images/bgi.jpg');
   background-size: cover;
@@ -46,30 +36,79 @@ html, body {
   height: 100vh;
 }
 
-
-/* Second paet of the forn */
-.content-section{
-    flex: 2;
-    height: 100vh;
-    
+/* Right Section (Content) */
+.content-section {
+  flex: 2;
+  height: 100vh;
+  position: absolute;
+  top: 20%;
+  left: 42%;
 }
 
-h1{
+/* Logo Section */
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 200px 0;
+}
+
+.logo img {
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.logo h1 {
+  color: white;
+}
+
+/* Form Content */
+.form-content {
+  display: flex;
+  gap: 120px;
+  padding: 14px;
+  margin: 14px;
+  background-color: rgb(3, 178, 205);
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 0 12px #000000;
+}
+
+.form-content:hover {
+  background-color: #000000;
+  color: #00fae1;
+}
+
+/* Highlighted Text */
+.highlight {
+  color: #00B7C5;
   font-family: 'NorseBold', sans-serif !important;
-    font-weight: bold !important;
-    font-size: 6rem !important;
+  font-weight: bold !important;
+  font-size: 10rem !important;
+  font-style: italic;
 }
 
-h2{
-    font-size: 80px;
+/* Typography */
+h1 {
+  font-family: 'NorseBold', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 6rem !important;
 }
-p{
-    font-size: 22px;
+
+h2 {
+  font-size: 80px;
 }
-h3{
-    font-size: 18px;
+
+h3 {
+  font-size: 18px;
 }
-h4{
+
+h4 {
   width: 120px;
   text-align: center;
   border-radius: 10px;
@@ -80,75 +119,20 @@ h4{
   box-shadow: 0 0 6px #ff0202;
 }
 
-h4:hover{
+h4:hover {
   background-color: #000000;
   color: #00fae1;
 }
 
-.form-content:hover{
-  background-color: #000000;
-  color: #00fae1;
-}
-/* the logo part */
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    /* border-radius: */
-    width: 100%;
-    box-sizing: border-box;
-    margin: 200px 0;
-  }
-  
-  .logo img {
-    max-width: 100px; /* Set image width (adjust as needed) */
-    margin-right: 15px; /* Space between the image and the text */
-  }
-  
-  .logo h1 {
-    color: white; /* Text color to contrast with the background */
-  }
-  
-  .content-section{
-    position: absolute;
-  top: 20%;
-  left: 42%;
-  
-  }
-
-  .form-content{
-display: flex;
-gap: 120px;
-padding: 14px;
-margin: 14px;
-background-color: rgb(3, 178, 205);
-width: fit-content;
-border-radius: 10px;
-box-shadow: 0 0 12px #000000;
-
+p {
+  font-size: 22px;
 }
 
-input:invalid {
-  border: 2px dashed red;
-  border-radius: 6px;
-}
-/* input:valid{
-  border: 2px solid rgb(51, 0, 255);
-  border-radius: 6px;
-} */
-
-input:focus {
-  /* box-shadow: #0e004b; */
-  background-color: #00fae1;
-}
-.btn{
+/* Buttons */
+.btn {
   background-color: #01BFCB;
   border: none;
   padding: 15px 28px;
-  text-decoration:  none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
@@ -158,16 +142,28 @@ input:focus {
   font-style: italic;
   word-spacing: 10px;
   width: 300px;
-  
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #000000;
   color: #00fae1;
 }
-.log-in{
+
+/* Login Link */
+.log-in {
   color: #03B2CD;
 }
+
 .log-in:hover {
   color: #000000;
 }
-/* End */
+
+/* Input Styles */
+input:invalid {
+  border: 2px dashed red;
+  border-radius: 6px;
+}
+
+input:focus {
+  background-color: #00fae1;
+}
