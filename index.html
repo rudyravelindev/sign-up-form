@@ -20,66 +20,101 @@
         </div>
       </div>
       <div class="right-side">
-        <p>
-          Welcome to our community! We are excited to learn more about you and
-          your interests. Please take a few minutes to complete this form by
-          providing the information requested below. Your responses will help us
-          better understand your needs and improve your experience. Make sure
-          all the information is accurate before submitting your application.
-          Thank you for taking the time to fill out this form!
-        </p>
-        <br />
-        <p>
-          Please fill out this form with your information so we can better
-          understand your needs and provide the best possible experience.
-        </p>
-        <form method="get">
+        <div class="paragraph">
+          <p>
+            Welcome to our community! We are excited to learn more about you and
+            your interests. Please take a few minutes to complete this form by
+            providing the information requested below. Your responses will help
+            us better understand your needs and improve your experience. Make
+            sure all the information is accurate before submitting your
+            application. Thank you for taking the time to fill out this form!
+          </p>
+          <br />
+          <p>
+            Please fill out this form with your information so we can better
+            understand your needs and provide the best possible experience.
+          </p>
+        </div>
+
+        <form method="get" id="my-form">
           <h2>Let's do this!</h2>
-          <label for="">First Name</label>
-          <input
-            type="text"
-            id="firstName"
-            name="firstName"
-            autocomplete="given-name"
-            required
-          />
-          <label for="">Last Name</label
-          ><input
-            type="text"
-            id="lastName"
-            name="lastName"
-            autocomplete="family-name"
-            required
-          /><label for="">Email</label
-          ><input
-            type="email"
-            id="userEmail"
-            name="email"
-            autocomplete="email"
-            required
-          /><label for=""
-            >Phone Number<input
-              type="tel"
-              id="userPhone"
-              name="phone"
-              autocomplete="tel" /></label
-          ><label for="">Password</label
-          ><input
-            type="password"
-            id="userPassword"
-            name="password"
-            autocomplete="new-password"
-            required
-          /><label for="">Confirm Password</label>
-          <input
-            type="password"
-            id="confirmPassword"
-            name="confirmPassword"
-            autocomplete="new-password"
-            required
-          />
+
+          <!-- Master Container for the 2 columns -->
+          <div class="form-container">
+            <!-- Left Column (3 items) -->
+            <div class="form-column">
+              <div class="form-group">
+                <label href="firstName">First Name</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  autocomplete="given-name"
+                  placeholder="your first name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label href="userEmail">Email</label>
+                <input
+                  type="email"
+                  id="userEmail"
+                  name="email"
+                  autocomplete="email"
+                  placeholder="example@example.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label href="userPassword">Password</label>
+                <input
+                  type="password"
+                  id="userPassword"
+                  name="password"
+                  autocomplete="new-password"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-column">
+              <div class="form-group">
+                <label href="lastName">Last Name</label>
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  autocomplete="family-name"
+                  placeholder="your last name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label href="userPhone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="userPhone"
+                  name="phone"
+                  autocomplete="tel"
+                  placeholder="222 222 2222"
+                />
+              </div>
+              <div class="form-group">
+                <label href="confirmPassword">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  autocomplete="new-password"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <button type="submit">Create an account</button>
         </form>
-        <button>Create an account</button>
+
         <p>Already have an account? <em>Log in</em></p>
       </div>
     </div>
