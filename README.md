@@ -48,6 +48,6 @@ Launch the project by executing your local text editor server extensions (e.g., 
 ---
 
 ## ⚖️ Credits & Asset Attribution
-* **Sidebar Background Art:** Photo by [Photographer Name](Link to Photo Source) on [Unsplash](https://unsplash.com).
-* **Project Logo Graphic:** Provided directly by [The Odin Project](https://www.theodinproject.com).
-* **Brand Display Font:** Norse Bold typeface.
+* **Sidebar Background Art:** <a href="https://unsplash.com/fr/@shanerounce?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Shane Rounce</a> on <a href="https://unsplash.com/fr/photos/un-groupe-de-personnes-se-tenant-la-main-au-sommet-dun-arbre-DNkoNXQti3c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Unsplash</a>
+
+
